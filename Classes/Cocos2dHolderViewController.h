@@ -7,10 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
-
+#import "HelloWorldScene.h"
 
 @interface Cocos2dHolderViewController : UIViewController {
-
+	HelloWorld* _helloWorld;
 }
 
+-(void) registerHelloWorldLayer: (HelloWorld*) hw;
 @end

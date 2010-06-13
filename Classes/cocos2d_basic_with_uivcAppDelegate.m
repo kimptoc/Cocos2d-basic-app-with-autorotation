@@ -55,8 +55,10 @@
     [window addSubview:viewController.view];
 	[window makeKeyAndVisible];		
 		
-		
-	[[CCDirector sharedDirector] runWithScene: [HelloWorld scene]];
+	CCScene* aScene = [HelloWorld scene];
+	HelloWorld* hw = (HelloWorld*)[aScene getChildByTag: HELLO_WORLD_TAG];
+	[viewController registerHelloWorldLayer: hw];
+	[[CCDirector sharedDirector] runWithScene: aScene];
 }
 
 

@@ -9,6 +9,7 @@
 // Import the interfaces
 #import "HelloWorldScene.h"
 
+
 // HelloWorld implementation
 @implementation HelloWorld
 
@@ -35,18 +36,30 @@
 	if( (self=[super init] )) {
 		
 		// create and initialize a Label
-		CCLabel* label = [CCLabel labelWithString:@"Hello World" fontName:@"Marker Felt" fontSize:64];
+		_label = [CCLabel labelWithString:@"Hello World" fontName:@"Marker Felt" fontSize:64];
 
 		// ask director the the window size
 		CGSize size = [[CCDirector sharedDirector] winSize];
 	
 		// position the label on the center of the screen
-		label.position =  ccp( size.width /2 , size.height/2 );
+		_label.position =  ccp( size.width /2 , size.height/2 );
+		
+		[self setTag:HELLO_WORLD_TAG];
 		
 		// add the label as a child to this Layer
-		[self addChild: label];
+		[self addChild: _label];
 	}
 	return self;
+}
+
+- (void) didAutoRotate;
+{
+	// ask director the the window size
+	CGSize size = [[CCDirector sharedDirector] winSize];
+	
+	// position the label on the center of the screen
+	_label.position =  ccp( size.width /2 , size.height/2 );
+	
 }
 
 // on "dealloc" you need to release all your retained objects

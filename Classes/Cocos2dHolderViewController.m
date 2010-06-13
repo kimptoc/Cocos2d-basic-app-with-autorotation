@@ -8,6 +8,7 @@
 
 #import "Cocos2dHolderViewController.h"
 
+#import "CCDirector.h"
 
 @implementation Cocos2dHolderViewController
 
@@ -62,9 +63,20 @@
 - (void)didRotateFromInterfaceOrientation:(UIInterfaceOrientation)fromInterfaceOrientation
 {
 	NSLog(@"didRotateFromInterfaceOrientation h:%f, w:%f",self.view.frame.size.height,self.view.frame.size.width);
+	UIInterfaceOrientation newOrientation = self.interfaceOrientation;
+	[[CCDirector sharedDirector] setDeviceOrientation:newOrientation];
+	[[CCDirector sharedDirector] applyLandscape];
+	if (_helloWorld)
+	{
+		[_helloWorld didAutoRotate];
+	}
 }
 
-
+-(void) registerHelloWorldLayer: (HelloWorld*) hw;
+{
+	_helloWorld = hw;
+	[_helloWorld retain];
+}
 
 - (void)didReceiveMemoryWarning {
     // Releases the view if it doesn't have a superview.
@@ -81,6 +93,8 @@
 
 
 - (void)dealloc {
+	[_helloWorld release];
+
     [super dealloc];
 }
 
