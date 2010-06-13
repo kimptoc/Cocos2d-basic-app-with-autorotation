@@ -1,0 +1,29 @@
+This is the Cocos2d Xcode template amended slightly to support autorotation.
+
+The changes include adding a custom UIViewController:
+
+Cocos2dHolderViewController
+
+The AppDelegate changes are to initialise the UIViewController and then pass it to the Director and link it to the window, as follows:
+
+- (void) applicationDidFinishLaunching:(UIApplication*)application
+{
+	// Init the window
+	window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+	
+	// cocos2d will inherit these values
+	[window setUserInteractionEnabled:YES];	
+	[window setMultipleTouchEnabled:YES];
+	
+	viewController = [[Cocos2dHolderViewController alloc] init];
+				
+...	   
+	
+	// create an openGL view inside a window
+	[[CCDirector sharedDirector] attachInView:viewController.view];	
+	//[[CCDirector sharedDirector] attachInView:window];	
+    [window addSubview:viewController.view];
+	[window makeKeyAndVisible];		
+		
+
+
