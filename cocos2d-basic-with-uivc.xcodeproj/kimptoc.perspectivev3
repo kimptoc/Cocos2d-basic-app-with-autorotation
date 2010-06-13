@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>ActivePerspectiveName</key>
-	<string>Debug</string>
+	<string>Project</string>
 	<key>AllowedModules</key>
 	<array>
 		<dict>
@@ -296,6 +296,8 @@
 							<string>MainColumn</string>
 							<real>185</real>
 						</array>
+						<key>RubberWindowFrame</key>
+						<string>587 164 844 652 0 0 1440 878 </string>
 					</dict>
 					<key>Module</key>
 					<string>PBXSmartGroupTreeModule</string>
@@ -306,12 +308,14 @@
 					<key>Dock</key>
 					<array>
 						<dict>
+							<key>BecomeActive</key>
+							<true/>
 							<key>ContentConfiguration</key>
 							<dict>
 								<key>PBXProjectModuleGUID</key>
 								<string>11FFC30D11C50E1800FA3AC2</string>
 								<key>PBXProjectModuleLabel</key>
-								<string>cocos2d_basic_with_uivcAppDelegate.m</string>
+								<string>Cocos2dHolderViewController.m</string>
 								<key>PBXSplitModuleInNavigatorKey</key>
 								<dict>
 									<key>Split0</key>
@@ -319,11 +323,11 @@
 										<key>PBXProjectModuleGUID</key>
 										<string>11FFC30E11C50E1800FA3AC2</string>
 										<key>PBXProjectModuleLabel</key>
-										<string>cocos2d_basic_with_uivcAppDelegate.m</string>
+										<string>Cocos2dHolderViewController.m</string>
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>11FFC39A11C5405D00FA3AC2</string>
+										<string>11FFC39F11C5424200FA3AC2</string>
 										<key>history</key>
 										<array>
 											<string>11FFC33411C53BA100FA3AC2</string>
@@ -331,8 +335,8 @@
 											<string>11FFC33611C53BA100FA3AC2</string>
 											<string>11FFC33711C53BA100FA3AC2</string>
 											<string>11FFC36511C53D4700FA3AC2</string>
-											<string>11FFC38911C53F7100FA3AC2</string>
-											<string>11FFC38D11C53F8300FA3AC2</string>
+											<string>11FFC39D11C5424200FA3AC2</string>
+											<string>11FFC39E11C5424200FA3AC2</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -347,6 +351,8 @@
 							<dict>
 								<key>Frame</key>
 								<string>{{0, 0}, {637, 481}}</string>
+								<key>RubberWindowFrame</key>
+								<string>587 164 844 652 0 0 1440 878 </string>
 							</dict>
 							<key>Module</key>
 							<string>PBXNavigatorGroup</string>
@@ -424,6 +430,8 @@
 									<dict>
 										<key>Frame</key>
 										<string>{{10, 27}, {637, 98}}</string>
+										<key>RubberWindowFrame</key>
+										<string>587 164 844 652 0 0 1440 878 </string>
 									</dict>
 									<key>Module</key>
 									<string>PBXBuildResultsModule</string>
@@ -507,8 +515,6 @@
 					<dict>
 						<key>Frame</key>
 						<string>{{0, 0}, {844, 163}}</string>
-						<key>RubberWindowFrame</key>
-						<string>587 164 844 652 0 0 1440 878 </string>
 					</dict>
 					<key>Module</key>
 					<string>PBXDebugCLIModule</string>
@@ -583,11 +589,7 @@
 							</array>
 							<key>Frame</key>
 							<string>{{0, 221}, {422, 222}}</string>
-							<key>RubberWindowFrame</key>
-							<string>587 164 844 652 0 0 1440 878 </string>
 						</dict>
-						<key>RubberWindowFrame</key>
-						<string>587 164 844 652 0 0 1440 878 </string>
 					</dict>
 					<key>Module</key>
 					<string>PBXDebugSessionModule</string>
@@ -651,7 +653,6 @@
 	<integer>5</integer>
 	<key>WindowOrderList</key>
 	<array>
-		<string>11FFC39B11C5405D00FA3AC2</string>
 		<string>11FFC35511C53BC200FA3AC2</string>
 		<string>11FFC35611C53BC200FA3AC2</string>
 		<string>/Users/kimptoc/Documents/xcode-local/SamplesCocos2d/cocos2d-basic-with-uivc/cocos2d-basic-with-uivc.xcodeproj</string>

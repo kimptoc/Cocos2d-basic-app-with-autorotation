@@ -56,8 +56,8 @@
 	11FFC31711C5104300FA3AC2 /* Cocos2dHolderViewController.m */ = {
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {984, 1246}}";
-			sepNavSelRange = "{2125, 0}";
-			sepNavVisRange = "{1500, 969}";
+			sepNavSelRange = "{231, 27}";
+			sepNavVisRange = "{0, 910}";
 		};
 	};
 	11FFC33411C53BA100FA3AC2 /* PBXTextBookmark */ = {
@@ -383,6 +383,46 @@
 		vrLen = 1142;
 		vrLoc = 898;
 	};
+	11FFC39C11C5423300FA3AC2 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1F3B9A2B0EF2145700286867 /* cocos2d_basic_with_uivcAppDelegate.m */;
+		name = "cocos2d_basic_with_uivcAppDelegate.m: 48";
+		rLen = 0;
+		rLoc = 1528;
+		rType = 0;
+		vrLen = 1296;
+		vrLoc = 672;
+	};
+	11FFC39D11C5424200FA3AC2 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1F3B9A2B0EF2145700286867 /* cocos2d_basic_with_uivcAppDelegate.m */;
+		name = "cocos2d_basic_with_uivcAppDelegate.m: 12";
+		rLen = 0;
+		rLoc = 296;
+		rType = 0;
+		vrLen = 954;
+		vrLoc = 0;
+	};
+	11FFC39E11C5424200FA3AC2 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 11FFC31711C5104300FA3AC2 /* Cocos2dHolderViewController.m */;
+		name = "Cocos2dHolderViewController.m: 67";
+		rLen = 0;
+		rLoc = 2125;
+		rType = 0;
+		vrLen = 1066;
+		vrLoc = 1404;
+	};
+	11FFC39F11C5424200FA3AC2 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 11FFC31711C5104300FA3AC2 /* Cocos2dHolderViewController.m */;
+		name = "Cocos2dHolderViewController.m: 12";
+		rLen = 27;
+		rLoc = 231;
+		rType = 0;
+		vrLen = 910;
+		vrLoc = 0;
+	};
 	1D6058900D05DD3D006BFB54 /* cocos2d-basic-with-uivc */ = {
 		activeExec = 0;
 		executables = (
@@ -391,9 +431,9 @@
 	};
 	1F3B9A2B0EF2145700286867 /* cocos2d_basic_with_uivcAppDelegate.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {576, 1218}}";
-			sepNavSelRange = "{1768, 0}";
-			sepNavVisRange = "{898, 1142}";
+			sepNavIntBoundsRect = "{{0, 0}, {576, 1274}}";
+			sepNavSelRange = "{296, 0}";
+			sepNavVisRange = "{0, 954}";
 		};
 	};
 	1F3B9A2C0EF2145700286867 /* cocos2d_basic_with_uivcAppDelegate.h */ = {
@@ -476,6 +516,10 @@
 			11FFC39111C53FEA00FA3AC2 /* PBXTextBookmark */ = 11FFC39111C53FEA00FA3AC2 /* PBXTextBookmark */;
 			11FFC39511C5404000FA3AC2 /* PBXTextBookmark */ = 11FFC39511C5404000FA3AC2 /* PBXTextBookmark */;
 			11FFC39A11C5405D00FA3AC2 /* PBXTextBookmark */ = 11FFC39A11C5405D00FA3AC2 /* PBXTextBookmark */;
+			11FFC39C11C5423300FA3AC2 /* PBXTextBookmark */ = 11FFC39C11C5423300FA3AC2 /* PBXTextBookmark */;
+			11FFC39D11C5424200FA3AC2 /* PBXTextBookmark */ = 11FFC39D11C5424200FA3AC2 /* PBXTextBookmark */;
+			11FFC39E11C5424200FA3AC2 /* PBXTextBookmark */ = 11FFC39E11C5424200FA3AC2 /* PBXTextBookmark */;
+			11FFC39F11C5424200FA3AC2 /* PBXTextBookmark */ = 11FFC39F11C5424200FA3AC2 /* PBXTextBookmark */;
 		};
 		sourceControlManager = 11FFC31311C50E1800FA3AC2 /* Source Control */;
 		userBuildSettings = {
