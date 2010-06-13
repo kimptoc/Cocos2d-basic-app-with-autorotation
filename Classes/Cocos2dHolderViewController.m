@@ -63,9 +63,14 @@
 - (void)didRotateFromInterfaceOrientation:(UIInterfaceOrientation)fromInterfaceOrientation
 {
 	NSLog(@"didRotateFromInterfaceOrientation h:%f, w:%f",self.view.frame.size.height,self.view.frame.size.width);
+	// get our new orientation
 	UIInterfaceOrientation newOrientation = self.interfaceOrientation;
+	// tell Cocos2d the new orientation
 	[[CCDirector sharedDirector] setDeviceOrientation:newOrientation];
+	// tell Cocos2d to rotate things based on that orientation...
 	[[CCDirector sharedDirector] applyLandscape];
+	// tell specific objects to cater for new lay of the land...
+	// TODO - the above seems to cause a double rotation, things end up upside down and half off screen - huh...
 	if (_helloWorld)
 	{
 		[_helloWorld didAutoRotate];
